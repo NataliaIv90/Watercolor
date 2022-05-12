@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watercolor painting</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", cursive;
+      }
+      h1 {
+        margin: 20px 0 10px 0;
+        text-align: center;
+        font-size: 30px;
+        color: #434142;
+        font-weight: lighter;
+        padding: 15px;
+        background: linear-gradient(
+          90deg,
+          rgba(46, 121, 183, 0.5) 0%,
+          rgba(255, 168, 168, 0.5) 60%
+        );
+        border: 1px solid #fad0004a;
+        border-radius: 60px;
+      }
+
+      h2 {
+        margin: 10px 0 20px 0;
+        text-align: center;
+        font-size: 24px;
+        color: #2e79b7;
+      }
+      a {
+        text-decoration: none;
+        color: #000000;
+        transition: all 150ms ease-in-out;
+      }
+
+      a:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+      li:hover {
+        background-color: rgba(250, 207, 0, 0.2);
+        color: #434142;
+      }
+      li {
+        list-style-type: none;
+        display: inline-block;
+        border: 1px solid #2e79b7;
+        border-radius: 5px;
+        width: 30%;
+        margin: 0 5px;
+        padding: 5px 0px;
+        font-size: smaller;
+        background-color: rgba(46, 121, 183, 0.1);
+        transition: all 150ms ease-in-out;
+        box-shadow: 5px 5px 5px rgba(46, 121, 183, 0.3);
+      }
+      img {
+        display: inline;
+        margin: 0px auto;
+        border-radius: 30px;
+        max-width: 100%;
+      }
+      ul {
+        padding: 0;
+      }
+      button {
+        margin: 5px 0 5px 0;
+        width: 30%;
+        line-height: 1.5;
+        font-size: 18px;
+        padding: 15px 0;
+        font-family: Helvetica, sans-serif;
+        transition: all 150ms ease-in-out;
+        background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        border: 1px solid #43414259;
+        box-shadow: 10px 10px 15px rgba(46, 121, 183, 0.3);
+        border-radius: 35px;
+        font-style: oblique;
+      }
+
+      button:hover {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 168, 168, 0.5) 10%,
+          rgba(252, 255, 0, 0.5) 100%
+        );
+        cursor: pointer;
+        border: 1px solid #434142ad;
+        font-weight: 600;
+      }
+
+      #contact-us-button {
+        font-style: normal;
+      }
+      .main-text {
+        font-size: 14px;
+        padding: 10px 0;
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 1.5;
+      }
+      .container {
+        display: block;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .underline-text {
+        text-decoration: underline;
+        text-decoration-color: #2e79b7;
+      }
+      .recommended {
+        font-weight: 600;
+        color: #2e79b7;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: smaller;
+      }
+      .footer > a {
+        color: #2e79b7;
+      }
+      .footer > a:hover {
+        text-decoration: underline;
+        text-decoration-color: #facf00;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Watercolor painting</h1>
+      <h2>How to watercolor</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/033/038/original/Watercolor-vs-Acrylic-for-Beginners_%E2%80%93_%D0%BA%D0%BE%D0%BF%D1%96%D1%8F.jpg?1651269826"
+        alt="watercolor paintings"
+      />
+      <div class="main-text">
+        <p class="main-text-p">
+          Watercolors are <em>water-based</em> and <em>non-toxic</em>, so paints
+          are thinned with water and paintbrushes can be easily cleaned with
+          soap and water. They are also <em>non-smelly</em>.
+        </p>
+        <p class="main-text-p">
+          Watercolor equipment is all very lightweight, allowing for easy
+          transport. They also will not take up much room in your bag. This is
+          great for plein-air painting! There are even dozens of all-in-one
+          watercolor kits, specifically designed for plein-air painters or
+          artists who travel frequently.
+        </p>
+      </div>
+      <hr />
+      <p>
+        <span class="recommended">The Recommended Products</span>
+        <br />
+        to help you <span class="underline-text"> browse for art supplies</span>
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://rosa.ua/en/28-watercolours"
+            target="_blank"
+            class="brand"
+            >Rosa <br />Watercolors</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://danielsmith.com/product-category/daniel-smith-watercolors/ "
+            target="_blank"
+            class="brand"
+            >Daniel Smith<br />
+            Watercolors</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.royaltalens.com/en/brands/van-gogh/watercolour/?productCode=2001P"
+            target="_blank"
+            class="brand"
+            >Royal Talents <br />Watercolors</a
+          >
+        </li>
+      </ul>
+      <hr />
+      <p>
+        If you want to sign up for painting classes, please<strong>
+          click on the button</strong
+        >👇🏼
+      </p>
+
+      <button>Contact us<br /><span id="contact-us-button">💌</span></button>
+
+      <div class="footer">
+        Coded by
+        <a
+          href="https://www.shecodesfoundation.org/candidates/natalia-ivantsova-ukrainian"
+          target="_blank"
+        >
+          Natalia Ivantsova
+        </a>
+      </div>
+    </div>
+    <script>
+      function updateHeading(newHeading) {
+        let heading = document.querySelector("h2");
+        heading.innerHTML = newHeading;
+      }
+
+      function buttonActivation() {
+        window.scrollTo({ top: 0 });
+        studentName = prompt("What is your name?");
+        studentMail = prompt("Enter your email address");
+        studentLocation = prompt("What city do you live in?");
+
+        studentLocationEdited = studentLocation.toLowerCase();
+        studentLocationEdited = studentLocationEdited.trim(" ", "");
+        studentLocationEdited = studentLocationEdited.trim("tokio", "tokyo");
+
+        if (
+          studentLocationEdited === "london" ||
+          studentLocationEdited === "tokyo"
+        ) {
+          updateHeading(
+            `Dear ${studentName}!
+            <br />
+             You can visit offline classes in our studio in ${studentLocation} or join our online courses. 
+             <br />
+             We've sent an email with details to ${studentMail} 💙💛`
+          );
+        } else {
+          alert(
+            `Dear ${studentName}! Check your mail box ${studentMail} to receive an exclusive 10% discount code! 💙💛`
+          );
+        }
+      }
+
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", buttonActivation);
+    </script>
+  </body>
+</html>
